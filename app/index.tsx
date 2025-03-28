@@ -1,5 +1,5 @@
 import { ScrollView, View } from "react-native";
-import { Header } from "./components/layout/header";
+import Header from "./components/layout/header";
 import BannerPagerView from "./components/banners/banner-pager-view";
 
 export default function Index() {
