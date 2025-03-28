@@ -1,9 +1,16 @@
-import { Text, View } from "react-native";
+import { ScrollView, View } from "react-native";
+import { Header } from "./components/layout/header";
 
 export default function Index() {
   return (
-    <View className="w-full h-full flex justify-center items-center">
-      <Text>Edit app/index.tsx to edit this screen</Text>
-    </View>
+    <ScrollView
+      style={{ flex: 1 }}
+      className="bg-slate-100"
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <Header />
+      </View>
+    </ScrollView>
   );
 }
